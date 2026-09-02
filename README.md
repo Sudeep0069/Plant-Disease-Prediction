@@ -4,10 +4,10 @@
 > images using **transfer learning with MobileNetV2**, with a **Gradio
 > web interface** for real-time image-based prediction.
 
-```
+
 <img width="1919" height="862" alt="interface" src="https://github.com/user-attachments/assets/8b7aec58-350f-48d2-a969-98a9309da536" />
 
-```
+
 ## 📌 Project Overview
 
 Plant diseases can significantly affect crop health and productivity.
@@ -155,10 +155,10 @@ The model achieved particularly strong results for classes such as
 Pepper Bell Healthy, Pepper Bell Bacterial Spot, Potato Early Blight,
 and Tomato Yellow Leaf Curl Virus.
 
-```
+
 <img width="1312" height="1189" alt="confusion-matrix" src="https://github.com/user-attachments/assets/d5d05232-7bf5-4bbd-8db0-cf185ee7298f" />
 
-```
+
 ### Confusion Matrix
 
 The confusion matrix shows the distribution of correct and incorrect
@@ -171,19 +171,19 @@ diagonal, indicating strong class-wise classification performance.
 
 ### 🔴 Pepper Bell --- Bacterial Spot
 
-```
+
 <img width="1916" height="973" alt="bacterial-spot-prediction" src="https://github.com/user-attachments/assets/160c7bc4-0d32-4d20-85e4-0249f8c99d01" />
 
-```
+
 The application correctly predicts **Pepper Bell Bacterial Spot** with
 **100% displayed confidence** for the example shown in the interface.
 
 ### 🟢 Pepper Bell --- Healthy
 
-```
+
 <img width="1919" height="874" alt="healthy-prediction" src="https://github.com/user-attachments/assets/5a9b6eb4-ac9e-4879-9bac-9520354c7b42" />
 
-```
+
 The application correctly predicts **Pepper Bell Healthy** with **100%
 displayed confidence** for the example shown.
 
@@ -200,10 +200,10 @@ The trained model is wrapped in a simple Gradio application.
 Users can upload a plant leaf image and receive the predicted class
 along with supporting information.
 
-```
+
 <img width="1915" height="916" alt="selection-menu" src="https://github.com/user-attachments/assets/4cc6244e-05d6-41c0-a207-89a94df46f5f" />
 
-```
+
 ### Interface workflow
 
 ``` text

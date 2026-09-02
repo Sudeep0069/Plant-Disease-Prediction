@@ -4,12 +4,9 @@
 > images using **transfer learning with MobileNetV2**, with a **Gradio
 > web interface** for real-time image-based prediction.
 
-```{=html}
-<p align="center">
 ```
-`<img src="./images/interface.png" alt="Plant Disease Prediction Gradio Interface" width="900">`{=html}
-```{=html}
-</p>
+<img width="1919" height="862" alt="interface" src="https://github.com/user-attachments/assets/8b7aec58-350f-48d2-a969-98a9309da536" />
+
 ```
 ## 📌 Project Overview
 
@@ -158,12 +155,9 @@ The model achieved particularly strong results for classes such as
 Pepper Bell Healthy, Pepper Bell Bacterial Spot, Potato Early Blight,
 and Tomato Yellow Leaf Curl Virus.
 
-```{=html}
-<p align="center">
 ```
-`<img src="./images/confusion-matrix.png" alt="Confusion Matrix" width="850">`{=html}
-```{=html}
-</p>
+<img width="1312" height="1189" alt="confusion-matrix" src="https://github.com/user-attachments/assets/d5d05232-7bf5-4bbd-8db0-cf185ee7298f" />
+
 ```
 ### Confusion Matrix
 
@@ -177,24 +171,18 @@ diagonal, indicating strong class-wise classification performance.
 
 ### 🔴 Pepper Bell --- Bacterial Spot
 
-```{=html}
-<p align="center">
 ```
-`<img src="./images/bacterial-spot-prediction.png" alt="Pepper Bell Bacterial Spot prediction" width="850">`{=html}
-```{=html}
-</p>
+<img width="1916" height="973" alt="bacterial-spot-prediction" src="https://github.com/user-attachments/assets/160c7bc4-0d32-4d20-85e4-0249f8c99d01" />
+
 ```
 The application correctly predicts **Pepper Bell Bacterial Spot** with
 **100% displayed confidence** for the example shown in the interface.
 
 ### 🟢 Pepper Bell --- Healthy
 
-```{=html}
-<p align="center">
 ```
-`<img src="./images/healthy-prediction.png" alt="Pepper Bell Healthy prediction" width="850">`{=html}
-```{=html}
-</p>
+<img width="1919" height="874" alt="healthy-prediction" src="https://github.com/user-attachments/assets/5a9b6eb4-ac9e-4879-9bac-9520354c7b42" />
+
 ```
 The application correctly predicts **Pepper Bell Healthy** with **100%
 displayed confidence** for the example shown.
@@ -212,12 +200,9 @@ The trained model is wrapped in a simple Gradio application.
 Users can upload a plant leaf image and receive the predicted class
 along with supporting information.
 
-```{=html}
-<p align="center">
 ```
-`<img src="./images/selection-menu.png" alt="Selecting a plant leaf image" width="850">`{=html}
-```{=html}
-</p>
+<img width="1915" height="916" alt="selection-menu" src="https://github.com/user-attachments/assets/4cc6244e-05d6-41c0-a207-89a94df46f5f" />
+
 ```
 ### Interface workflow
 
